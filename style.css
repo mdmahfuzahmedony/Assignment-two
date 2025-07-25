@@ -222,28 +222,39 @@
   font-weight: 400;
   font-family: "Inter", sans-serif;
   color: gray;
-  padding-top:40px;
+  padding-top: 40px;
 }
 
 .flower-content ul {
   margin-left: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* ----------deals--------- */
 
 .LatestDeals {
-  margin: 0px auto;
+  margin: 70px auto;
   text-align: center;
+  padding-top: 20px;
 }
+
+.LatestDeals h1 {
+  font-size: 50px;
+  font-weight: 700;
+
+}
+
+.LatestDeals h1 span {
+  color: #E95A08;
+
+}
+
+.LatestDeals p {
+  color: gray;
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
 
 .img-deals-box {
   margin: 0px auto;
@@ -263,9 +274,10 @@
   gap: 30px;
 }
 
+
+
 .card-number-one {
   width: 90%;
-  /* border: 1px solid black; */
   margin: 0px auto;
   text-align: center;
   background-image: url(B12A02-Responsive-Flowers/assets/deal-ana.png);
@@ -276,7 +288,17 @@
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 10px;
+  height: 180px;
 
+}
+.card-number-one h1{
+  color: white;
+
+}
+.card-number-one p{
+  color: white;
+  font-size: 16px;
+  
 }
 
 .card-number-one img {
@@ -293,11 +315,22 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  height: 180px;
   border-radius: 10px;
 
 }
+.card-number-two h1{
+  color: white;
+
+}
+.card-number-two p{
+  color: white;
+  font-size: 16px;
+  
+}
+
 
 .card-number-two img {
   width: 100%;
@@ -316,6 +349,7 @@
   padding-top: 150px;
   padding-bottom: 150px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .card-number-three {
@@ -323,6 +357,19 @@
   margin: 0px auto;
 
 }
+.card-number-three h1{
+  color: white;
+  font-size:40px;
+  font-family: "Noto Sans", sans-serif;
+
+}
+.card-number-three p{
+  color: white;
+  font-size:28px;
+  font-weight: 600;
+  
+}
+
 
 
 /* ----------search-section---------- */
@@ -388,7 +435,8 @@
 }
 
 .footer-one p {
-  font-size: 22px;
+  margin-top: 10px;
+  font-size:16px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
   color: rgb(122, 121, 121);
@@ -504,7 +552,7 @@
 
   .banner-content p {
     margin-top: 10px;
-    font-size: 16px;
+    font-size:18px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
   }
@@ -522,30 +570,47 @@
   }
 
   .our-plants h1 {
-    font-size: 24px;
+    font-size: 27px;
     font-weight: bold;
   }
 
   .our-plants p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
+    color: gray;
   }
 
   .flower-continer {
     flex-direction: column;
+    margin-top: 30px;
   }
 
-  .flower-img {
-    width: 90%;
-    margin: 0px 30px;
+  .flower-img img {
+    width: 100%;
   }
 
   .flower-content {
+
     max-width: 90%;
     width: 100%;
     margin: 0px 30px;
 
   }
+
+  .flower-content h1 {
+    font-size: 24px;
+  }
+
+  .flower-content ul {
+    margin-top: 10px;
+  }
+
+  .flower-content li {
+
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
 
   /* ------------------------flower-card---------------------- */
   .flower-card {
@@ -560,6 +625,12 @@
     text-align: center;
     margin: 0px 30px;
   }
+  .LatestDeals h1{
+    font-size:28px;
+  }
+   .LatestDeals p {
+    font-size: 18px;
+  }
 
   .img-deals-box {
     flex-direction: column;
@@ -569,6 +640,7 @@
 
   .img-left {
     width: 100%;
+  
   }
 
   .right-side {
@@ -579,6 +651,40 @@
 
   }
 
+  .card-number-three h1 {
+    color: white;
+    font-size: 24px;
+  }
+
+  .card-number-three p {
+    color: white;
+    font-size: 16px;
+  }
+
+  .card-number-one h1 {
+    color: white;
+    font-size: 24px;
+  }
+
+  .card-number-one p {
+    color: white;
+    font-size: 16px;
+  }
+
+  .card-number-two h1 {
+    color: white;
+    font-size: 24px;
+  }
+
+  .card-number-two p {
+    color: white;
+    font-size: 16px;
+  }
+  .card-number-three{
+    height: 90px;
+    padding-top: 20px;
+  }
+
   /* -------------news-section-------------- */
 
   .news-content {
@@ -586,7 +692,7 @@
   }
 
   .news-content h1 {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
   }
 
